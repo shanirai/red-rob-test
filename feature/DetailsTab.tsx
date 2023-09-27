@@ -83,10 +83,16 @@ export default function BasicTabs() {
         <ExperianceCard
           company="Spotify Inc ."
           designation={"Product Designer"}
+          company_size={"10000+"}
+          hq={"Sweden"}
+          company_ranking={100}
         />
         <ExperianceCard
           company="Netflix ."
           designation={"Sr . Software Engineer "}
+          company_size={"10000+"}
+          hq={"NewYork"}
+          company_ranking={140}
         />
       </CustomTabPanel>
       <CustomTabPanel value={value} index={1}>

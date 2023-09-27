@@ -18,7 +18,7 @@ import GradeIcon from "@mui/icons-material/Grade";
 
 function ExperianceCard(props: any) {
   //**  props -- components   */
-  const { company, designation } = props;
+  const { company, designation, company_size, hq, company_ranking } = props;
 
   return (
     <Box>
@@ -195,16 +195,16 @@ function ExperianceCard(props: any) {
                 Based on Reviews
               </Typography>
               <Typography variant="subtitle2" mt={0.5}>
-                HQ - Delhi India , | IT Services and Consultancy
+                HQ - {hq} , | IT Services and Consultancy
               </Typography>
             </Stack>
             <Box mt={0.5}>
               <Typography variant="subtitle2">
-                Company Founded : 2005 | Company Ranking : 1404
+                Company Founded : 2005 | Company Ranking : {company_ranking}
               </Typography>
               <Typography variant="subtitle2"></Typography>
               <Typography variant="subtitle2">
-                Company Size : 50 - 200 | Type of Company : National
+                Company Size : {company_size} | Type of Company : MNC
               </Typography>
             </Box>
             <Box mt={0.5}>
