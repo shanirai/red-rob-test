@@ -192,10 +192,10 @@ function CandidateCard() {
               },
             }}
           >
-            Reject
+            Rejection
           </Button>
           <Button variant="contained" size="large">
-            Accept
+            Selection
           </Button>
         </Box>
       </Box>
