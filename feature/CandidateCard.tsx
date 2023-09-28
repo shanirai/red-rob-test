@@ -125,7 +125,7 @@ function CandidateCard() {
               <Typography
                 onClick={() => setIsShowMore(!isShowMore)}
                 variant="subtitle1"
-                ml={2}
+                ml={2.5}
               >
                 {isShowMore ? "Show More" : "Show Less"}
               </Typography>
